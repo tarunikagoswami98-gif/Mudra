@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Secrets / local settings (IP addresses aur API keys yahan hote hain)
+.env
+.env.*
+!.env.example
+!_env.example
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
